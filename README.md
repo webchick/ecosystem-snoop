@@ -21,3 +21,10 @@ Inspect the public Drupal.org usage data for the M0.3 test project:
 ```sh
 python3 fetch_drupal_project_usage.py
 ```
+
+Inspect that project's position and nearby projects in Drupal.org's public
+cross-project usage listing:
+
+```sh
+python3 inspect_drupal_ecosystem_usage.py
+```
