@@ -15,3 +15,9 @@ Install the small HTML parsing dependency, then run the script:
 python3 -m pip install -r requirements.txt
 python3 fetch_drupal_security_rss.py
 ```
+
+Inspect the public Drupal.org usage data for the M0.3 test project:
+
+```sh
+python3 fetch_drupal_project_usage.py
+```
