@@ -28,3 +28,11 @@ cross-project usage listing:
 ```sh
 python3 inspect_drupal_ecosystem_usage.py
 ```
+
+Run the standalone M1 intelligence assessment for the three calibration
+examples. This requires an OpenAI API key in the environment:
+
+```sh
+export OPENAI_API_KEY="your-key"
+python3 assess_signal.py
+```
